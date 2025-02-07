@@ -1,4 +1,4 @@
-# Company Name Matching - ING Interview Project
+# Company Name Matching
 
 This project matches external company names with a ground-truth database, using **TF-IDF vectorization, Nearest Neighbors, and Fuzzy Matching**.
 
@@ -11,6 +11,7 @@ This project matches external company names with a ground-truth database, using 
 ---
 
 ## Project Structure
+```
 company_matching_project/
 │── main.py                   # Main script to run training and testing
 │── requirements.txt           # Dependencies for Python
@@ -33,6 +34,7 @@ company_matching_project/
 │   ├── STrain_final_predictions.csv   # Training results
 │   ├── STest_final_predictions.csv    # Test results (matches `sample_submission.csv` format)
 ---
+```
 
 ## How to Run
 ### ** Option 1: Run Locally with Python & Virtual Environment (`venv`)**

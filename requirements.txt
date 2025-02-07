@@ -3,3 +3,4 @@ scikit-learn
 rapidfuzz
 metaphone
 fuzzywuzzy
+time
