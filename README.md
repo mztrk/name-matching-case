@@ -80,8 +80,8 @@ Everything will now run inside the virtual environment.
 
 This will generate:
 ```
-output/STrain_final_predictions.csv
-output/STest_final_predictions.csv  (matches `sample_submission.csv` format)
+output/matched_results_train.csv
+output/matched_results_test.csv  (matches `sample_submission.csv` format)
 ```
 
 #### **5. Deactivate Virtual Environment**
