@@ -56,4 +56,5 @@ class CompanyMatcher:
         if not test_mode:
             return S[["train_index", "name", "company_id", "company_id_pred"]]  # Keep company_id for cost calculation
         else:
-            return S[["test_index", "company_id_pred"]]
+            S.rename(columns={"company_id_pred": "company_id"}, inplace=True)  # Rename column
+            return S[["test_index", "company_id"]]  # Return with correct column name

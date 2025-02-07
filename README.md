@@ -31,8 +31,8 @@ company_matching_project/
 │   ├── sample_submission.csv  # Expected test submission format
 │
 ├── output/                    # Output folder
-│   ├── STrain_final_predictions.csv   # Training results
-│   ├── STest_final_predictions.csv    # Test results (matches `sample_submission.csv` format)
+│   ├── matched_results_train.csv   # Training results
+│   ├── matched_results_test.csv    # Test results (matches `sample_submission.csv` format)
 ---
 ```
 
