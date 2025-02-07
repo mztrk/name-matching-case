@@ -1,4 +1,4 @@
-# Company Name Matching - ING Interview Project
+# Company Name Matching
 
 This project matches external company names with a ground-truth database, using **TF-IDF vectorization, Nearest Neighbors, and Fuzzy Matching**.
 
